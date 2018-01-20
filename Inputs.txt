@@ -1,0 +1,249 @@
+I have run the code for all the following and some of them are not giving any results even after runnning for a lot of time.
+
+
+### Not getting solution for these
+
+    OOOOO
+OOOOO   O
+O R B   O
+O  SOS  O
+OOBOOOBOO
+O  SOS  O
+O   B   O
+O   OOOOO
+OOOOO
+
+
+
+
+OOOOOOO
+O     O
+O     O
+OS O  O      --- Able to get DFS, Greedy for both heuristics, but not the remaining
+OS BB O
+OSBB  O
+OSO  RO
+OOOOOOO
+
+
+OOOOOOOOO
+OS  S  SO
+OO BBB OO
+ OO   OO
+  OOROO      ---- Unable to get result from any methods
+ OO   OO
+OO BBB OO
+OS  S  SO
+OOOOOOOOO
+
+
+
+  OOOOO
+OOO . OOO
+OS  B  SO
+O  O O  O
+O B B B O
+O  O O  O
+OS  B  SO
+OOO   OOO
+  OOOOO
+
+
+
+############### All the methods are working for the below ones
+
+OOOOOOOO
+O   OR O
+O    B O
+O   O  O
+OOOOOBSO
+    O SO
+    OOOO
+
+OOOOOOOO
+O   OR O
+O    B O
+OOOOOBSO
+    O SO
+    OOOO
+
+OOOO
+OSROO
+OBBSO
+O B O
+O S O
+OO  O
+ OOOO
+
+
+
+
+  OOOO
+OOORSO
+OS B O
+OO B O
+OSB OO
+OOOOO
+
+
+OOOOO
+OS  OO
+O BB O
+O BR O
+OS  SO
+OOOOOO
+
+
+
+   OOOO
+  OOS O
+OOO R OOOO
+OS BBBB SO
+OOOO   OOO
+   O S O
+   OOOOO
+
+OOOO
+OSROO
+OBBSO
+O B O
+O S O
+OO  O
+ OOOO
+
+
+  OOOO
+OOORSO
+OS B O
+OO B O
+OSB OO
+OOOOO
+
+
+  OOOOOO
+OOOSO  O
+O    B OO
+O B R  SO
+OOO O OOO
+  OBO O
+  O  SO
+  OOOOO
+
+
+Big DFS and small BFS for above
+
+
+OOO
+O.OOO
+OBOSOO
+OSBBSO
+O B BOO
+OS B SO
+OOOOOOO
+
+
+OOOO
+OR OOOOOO
+O       O
+OSBSBSB O
+OO     OO
+ OOOOOOO
+
+small BFS and big DFS for above one,
+
+
+
+OOOOOOO
+O  R  O
+O BBB O
+O SSS O
+OOOOOOO
+
+
+ OOOOO
+OOSSSOO
+O BBBSO
+O B.B O
+OSBBB O
+OOSS  O
+ OOOOOO
+
+Taking time but small solution working
+
+
+OOOOOOOO
+O  O   O
+O      O
+OBBBOOOO
+O.S SO
+OOOOOO
+
+
+OOOO
+OR OOOO
+O BB  O
+O B S O
+OO SSOO
+ OOOOO
+
+
+ OOOO
+ O  O
+ O  OOO
+ O *  O
+OOBOB O
+O SRS O
+O    OO
+OOO  O
+  OOOO
+
+above one: BFS small and fast , DFS big and slow
+
+
+OOOOOOO
+O   SSO
+O B RSO
+OOBB  O
+ O  OOO
+ O  O
+ OOOO
+
+
+OOOO OOOO
+OS OOO SO
+O   B   O
+O OOBOO O
+O   BR  O
+OS OOO  O
+OOOO OOOO
+
+
+   OOOO
+OOOO ROOO
+O  BBB  O
+O  SSS  O
+OOOOO   O
+    OOOOO
+  
+*** Testcases for Greedy and A*
+
+OOOOOOOOO
+O       O
+O       O
+O  OOOS O
+O    OOOO
+O      OO
+O RB    O
+O       O
+OOOOOOOOO
+
+
+OOOOOOOOO
+O       O
+O       O
+O  OOO  O
+O    OS O
+O     O O
+O RB  O O
+O     O O
+OOOOOOOOO
