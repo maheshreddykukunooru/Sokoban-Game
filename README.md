@@ -1,5 +1,5 @@
 [Sokoban](https://en.wikipedia.org/wiki/Sokoban) is a puzzle game where the player has to move boxes into storage locations with some obstacles in between. You can play online version of the game [here](http://www.game-sokoban.com/).
-#### Input Format
+### Input Format
 
 O - Obstacle  
 S - Storage  
@@ -9,7 +9,7 @@ R - Robot
 "*****" - Block on strage space  
 "**.**" - Robot on storage space
 
-#### How to compile and execute
+### How to compile and execute
 
 I have implemented all the algorithms in 6 different files, named bfs.py, dfs.py, greedy_manhattan.py, Astar_manhattan.py, greedyOwnHeuristic.py and Astar-ownHeuristic.py
 
@@ -24,7 +24,7 @@ An **extra line** should bee provided after the input configuration is typed in 
 
 **Note: input.txt also has to contain 2 new lines after the input**
 
-#### Heuristic:
+### Heuristic:
 
 * Greedy best first search and A* search are implemented using Manhattan distance between blocks and the nearest storage spaces. In this the distance from blocks to storage spaces is only considered.
 
@@ -38,7 +38,7 @@ An **extra line** should bee provided after the input configuration is typed in 
 		I have used 2* storageSpacesLeft to provide more weightage to storageSpacesLeft because  
 		it's always a lesser number compared to other two.
 
-#### Analysis:
+### Analysis:
 
 * BFS always returns an optimal solution as it checks for the solution level by level but it is slow.
 * DFS opens a node and continues among its children till it reaches a leaf node, but it is sometimes fast but gives a longer path to reach solution.
